@@ -30,7 +30,7 @@ SUPPORT_AGENTS = [
     {
         'key': 'support_agent_1',
         'email': 'goddumahesh123@gmail.com',
-        'mobile_number': '7287009688',
+        'mobile_number': '7287009618',
         'full_name': 'Customer Support',
         'pin': os.getenv('SUPPORT_PIN', ''),
     },
