@@ -1,0 +1,20 @@
+# ── Secrets: never commit ──────────────────────────────
+.env
+**/.env
+!**/.env.example
+
+# ── Python ─────────────────────────────────────────────
+backend/venv/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+backend/instance/
+backend/flask_session/
+
+# ── Logs ───────────────────────────────────────────────
+backend/logs/
+*.log
+
+# ── Node / frontend build ──────────────────────────────
+frontend/node_modules/
+frontend/dist/
