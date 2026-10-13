@@ -29,9 +29,9 @@ from .staff_sync import sync_staff
 ADMINS = [
     {
         'key': 'primary_admin',
-        'email': 'ramana@gmail.com',
-        'mobile_number': '9000000001',
-        'full_name': 'Ramana',
+        'email': 'korupolusahithi123@gmail.com',
+        'mobile_number': '7287009688',
+        'full_name': 'Sahithi',
         'pin': os.getenv('ADMIN_PIN', ''),
     },
     # Add more Admins like this:

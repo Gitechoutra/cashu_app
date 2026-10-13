@@ -29,8 +29,8 @@ from .staff_sync import sync_staff
 SUPPORT_AGENTS = [
     {
         'key': 'support_agent_1',
-        'email': 'ramana123@gmail.com',
-        'mobile_number': '9000000002',
+        'email': 'goddumahesh123@gmail.com',
+        'mobile_number': '7287009688',
         'full_name': 'Customer Support',
         'pin': os.getenv('SUPPORT_PIN', ''),
     },

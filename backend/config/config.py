@@ -91,9 +91,6 @@ class BaseConfig:
 class DevelopmentConfig(BaseConfig):
     APP_ENV = 'DEV'
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = os.getenv(
-        'DATABASE_URL', 'mysql+pymysql://root:password@localhost:3306/cardvault'
-    )
 
 
 class TestingConfig(BaseConfig):
